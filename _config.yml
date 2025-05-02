@@ -10,6 +10,8 @@ title: "Martin Mangler"
 subtitle: "Igneous Petrology | Volcanology"
 url: "https://martinmangler.github.io"
 masthead_image: "/assets/images/Banner_Etna.jpg"
+include:
+  - _pages
 
 # Markdwon processing
 markdown: kramdown

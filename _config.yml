@@ -24,7 +24,7 @@ exclude:
   - node_modules
   - vendor
 
-navigation:
+nav:
   - title: "Home"
     url: "/"
   - title: "Shapecalc"

@@ -1,6 +1,6 @@
 ---
 layout: home
-title: ""
+title: "Home"
 permalink: /
 header:
   overlay_image: /assets/images/Banner_Etna.jpg

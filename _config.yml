@@ -25,6 +25,12 @@ exclude:
   - node_modules
   - vendor
 
+# Disable Recent Posts
+home_recent_posts: false
+
+footer:
+  links: []
+
 
  
 

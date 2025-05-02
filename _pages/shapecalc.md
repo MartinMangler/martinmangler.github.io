@@ -39,7 +39,7 @@ Here’s a video showing how ShapeCalc works in practice:
 For detailed documentation, example datasets, and installation instructions, visit the [ShapeCalc GitHub repository](https://github.com/MartinMangler/shapecalc).
 
 To download ShapeCalc directly, click below:  
-**[Download ShapeCalc](https://github.com/MartinMangler/ShapeCalc/blob/main/Shapecalc_v1.0.xlsx)**
+**[Download ShapeCalc](https://github.com/MartinMangler/ShapeCalc/raw/refs/heads/main/Shapecalc_v1.0.xlsx)**
 
 ---
 

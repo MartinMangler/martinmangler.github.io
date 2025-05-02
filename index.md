@@ -1,6 +1,7 @@
 ---
 layout: single
 title: ""
+permalink: /
 header:
   overlay_image: /assets/images/Banner_Etna.jpg
   overlay_filter: 0.2

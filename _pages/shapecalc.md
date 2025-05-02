@@ -3,7 +3,7 @@ layout: single
 title: "ShapeCalc"
 permalink: /shapecalc/
 header:
-  overlay_image: /assets/images/Banner_ShapeCalc.tif
+  overlay_image: /assets/images/Banner_ShapeCalc.jpg
 
 ---
 

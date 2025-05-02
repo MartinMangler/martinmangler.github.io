@@ -2,7 +2,7 @@
 layout: default
 title: Martin Mangler
 header:
-  overlay_image: /assets/images/banner_Etna.jpg
+  overlay_image: /assets/images/Banner_Etna.jpg
 ---
 
 # Welcome!

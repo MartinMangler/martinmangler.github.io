@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Martin Mangler
+header:
+  overlay_image: /assets/images/banner_Etna.jpg
 ---
 
 # Welcome!
@@ -9,5 +11,3 @@ I am an igneous petrologist studying the timescales of magmatic processes leadin
 
 The ultimate aim of my research is to strengthen the role of petrology in volcanic eruption monitoring and crisis management. Constraining and understanding pre- and syn-eruptive timescales allows to establish a framework of volcanic behaviour, which can be used to interpret other monitoring signals, feeding into decision-making, planning and preparedness.
 
-##Navigation:
-- [My Research](research.md)

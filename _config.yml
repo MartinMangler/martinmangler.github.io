@@ -1,10 +1,17 @@
-title: Martin Mangler
-remote_theme: "mmistakes/minimal-mistakes@4.27.0"
+# Theme settings
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "sunrise" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 plugins:
   - jekyll-include-cache
 
-# Optional but recommended minimal settings for Minimal Mistakes
+# Site Settings
+title: "Martin Mangler"
+subtitle: "Igneous Petrology | Volcanology"
+url: "https://martinmangler.github.io"
+logo: 
+
+# Markdwon processing
 markdown: kramdown
 kramdown:
   input: GFM
@@ -15,3 +22,15 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
+
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Shapecalc"
+    url: "/shapecalc/"
+  - title: "Research"
+    url: "/research/"
+  - title: "Publications"
+    url: "/publications/"
+  - title: "Media"
+    url: "/media/"

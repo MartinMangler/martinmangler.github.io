@@ -34,3 +34,11 @@ nav:
   - title: "Publications"
     url: /publications/
 
+header_pages:
+  - index.md
+  - _pages/shapecalc.md
+  - _pages/research.md
+  - _pages/publications.md
+ 
+
+

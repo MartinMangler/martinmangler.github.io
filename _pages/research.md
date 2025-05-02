@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "My Research"
-permalink: /research
+permalink: /research/
 ---
 
 Here is an overview of my research interests.

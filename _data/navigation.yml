@@ -1,0 +1,9 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "ShapeCalc"
+    url: /shapecalc/
+  - title: "My Research"
+    url: /research/
+  - title: "Publications"
+    url: /publications/

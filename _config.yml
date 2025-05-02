@@ -10,7 +10,6 @@ plugins:
 title: "Martin Mangler"
 subtitle: "Igneous Petrology | Volcanology"
 url: "https://martinmangler.github.io"
-masthead_image: "/assets/images/Banner_Etna.jpg"
 header:
   nav: main
 

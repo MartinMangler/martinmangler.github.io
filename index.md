@@ -1,8 +1,10 @@
 ---
 layout: default
-title: Martin Mangler
+title: "Martin Mangler"
 header:
   overlay_image: /assets/images/Banner_Etna.jpg
+  overlay_filter: 0.3
+  caption: "Yolo"
 ---
 
 # Welcome!

@@ -26,11 +26,11 @@ exclude:
 
 nav:
   - title: "Home"
-    url: "/"
+    url: /
   - title: "Shapecalc"
-    url: "/shapecalc/"
+    url: /shapecalc/
   - title: "Research"
-    url: "/research/"
+    url: /research/
   - title: "Publications"
-    url: "/publications/"
+    url: /publications/
 

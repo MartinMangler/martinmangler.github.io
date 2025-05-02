@@ -1,9 +1,9 @@
 ---
 layout: single
-title: "Martin Mangler"
+title: ""
 header:
   overlay_image: /assets/images/Banner_Etna.jpg
-  overlay_filter: 0.5
+  overlay_filter: 0.2
   
 ---
 

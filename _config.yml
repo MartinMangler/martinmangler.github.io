@@ -9,7 +9,7 @@ plugins:
 title: "Martin Mangler"
 subtitle: "Igneous Petrology | Volcanology"
 url: "https://martinmangler.github.io"
-logo: 
+masthead_image: "/assets/images/banner_Etna.jpg"
 
 # Markdwon processing
 markdown: kramdown

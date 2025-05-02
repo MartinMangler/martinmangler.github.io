@@ -34,12 +34,12 @@ ShapeCalc compares your 2D length and width data with synthetic 2D projections o
 ### Learn More and Download ShapeCalc
 
 Here’s a video showing how ShapeCalc works in practice:  
-*(embedded video)*
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5qarOaO2ETA?si=7M0rntgv-MVsY39H" title="ShapeCalc video" frameborder="0" allowfullscreen></iframe>
 
 For detailed documentation, example datasets, and installation instructions, visit the [ShapeCalc GitHub repository](https://github.com/MartinMangler/shapecalc).
 
 To download ShapeCalc directly, click below:  
-**[Download ShapeCalc](https://github.com/MartinMangler/shapecalc/releases/latest)**
+**[Download ShapeCalc](https://github.com/MartinMangler/ShapeCalc/blob/main/Shapecalc_v1.0.xlsx)**
 
 ---
 

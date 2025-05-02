@@ -4,4 +4,4 @@ title: "My Research"
 permalink: /research/
 ---
 
-Here is an overview of my research interests.
+Here is an overview of my research interests..I do have interests, I promise! Coming soon.

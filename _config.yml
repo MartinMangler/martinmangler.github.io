@@ -11,6 +11,8 @@ title: "Martin Mangler"
 subtitle: "Igneous Petrology | Volcanology"
 url: "https://martinmangler.github.io"
 masthead_image: "/assets/images/Banner_Etna.jpg"
+header:
+  nav: main
 
 # Markdwon processing
 markdown: kramdown
@@ -24,21 +26,7 @@ exclude:
   - node_modules
   - vendor
 
-nav:
-  - title: "Home"
-    url: /
-  - title: "Shapecalc"
-    url: /shapecalc/
-  - title: "Research"
-    url: /research/
-  - title: "Publications"
-    url: /publications/
 
-header_pages:
-  - index.md
-  - _pages/shapecalc.md
-  - _pages/research.md
-  - _pages/publications.md
  
 
 

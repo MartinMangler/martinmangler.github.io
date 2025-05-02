@@ -1,6 +1,6 @@
 ---
 layout: single
-title "ShapeCalc"
+title: "ShapeCalc"
 permalink: /shapecalc/
 ---
 

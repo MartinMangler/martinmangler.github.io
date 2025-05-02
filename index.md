@@ -20,5 +20,5 @@ If you’d like to learn more about my past and current research, [click here](h
 
 For those interested in **crystal shape** and its petrological significance, as well as **quantitative textural analysis** such as **crystal size distributions (CSD)**, I invite you to explore **[ShapeCalc](https://martinmangler.github.io/shapecalc/)**. I developed ShapeCalc as the most up-to-date, robust tool for estimating **3D crystal shapes** from **2D crystal data**.
 
-If you are interested in potential **collaborations**, **PhD projects**, or would like to discuss any research ideas, feel free to [contact me](mailto:m.f.mangler@soton.ac.uk)
+If you are interested in potential **collaborations**, **PhD projects**, or would like to discuss any research ideas, feel free to [contact me.](mailto:m.f.mangler@soton.ac.uk)
 

@@ -41,7 +41,7 @@ For detailed documentation, example datasets, and installation instructions, vis
 To download ShapeCalc directly, click below:  
 **[Download ShapeCalc](https://github.com/MartinMangler/ShapeCalc/raw/refs/heads/main/Shapecalc_v1.0.xlsx)**
 
-Plannint to use ShapeCalc to calculate Crystal Size Distributions? - Click below to download the latest version of CSDCorrections:
+Planning to use ShapeCalc to calculate Crystal Size Distributions? - Click below to download the latest version of CSDCorrections:  
 **[Download CSDCorrections 1.61](https://mdhiggins.ca/csdcorrections.html)**
 
 ---

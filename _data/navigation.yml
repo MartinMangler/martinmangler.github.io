@@ -5,5 +5,7 @@ main:
     url: /research/
   - title: "ShapeCalc"
     url: /shapecalc/
+  - title: "Engagement"
+    url: /engagement/
   - title: "Publications"
     url: /publications/

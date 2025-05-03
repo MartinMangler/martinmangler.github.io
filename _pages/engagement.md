@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Public Engagement"
+title: "Outreach and Community Engagement"
 permalink: /engagement/
 ---
 

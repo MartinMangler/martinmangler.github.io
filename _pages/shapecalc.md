@@ -13,23 +13,23 @@ The size, number, and shape of crystals in volcanic rocks tell a unique story of
 
 ### The Challenge with Estimating 3D Crystal Shapes
 
-Estimating 3D crystal shapes from 2D thin sections, as seen in microscopy, can be complex and prone to errors. Existing tools often yield inaccurate results, especially when dealing with natural crystals that vary in shape and size. 
+Estimating 3D crystal shapes from 2D thin sections, as seen in microscopy, can be complex and prone to errors. For example, cut-section effects demand statistical treatment and stereological projection of 2D data to estimate 3D crystal shapes. Existing tools often yield inaccurate results, especially when dealing with natural crystals that vary in shape and size. 
 
-Together with my co-workers, I demonstrated that existing methods can be unreliable, leading to misinterpretations. In response, we developed **ShapeCalc**—a free and open-source tool for generating more accurate 3D shape estimates based on 2D crystal intersection data.
+Together with my co-workers, I demonstrated that existing methods can be unreliable, leading to misinterpretations [Mangler et al., 2022](https://link.springer.com/article/10.1007/s00410-022-01922-9). In response, we developed **ShapeCalc**—a free and open-source tool for generating more accurate 3D shape estimates based on 2D crystal intersection data.
 
 ### Why ShapeCalc is Different
 
-ShapeCalc leverages **synthetic 3D model shapes** (such as equant, prismatic, and tabular models) to compare against your 2D data. The tool uses the same algorithms behind the widely-used **CSDCorrections** tool (Higgins, 2000), which ensures **internally consistent** and **robust** CSDs when combined with ShapeCalc. This makes ShapeCalc the only tool that provides reliable 3D shape estimates that are consistent with standard CSD methods.
+ShapeCalc leverages **synthetic 3D model shapes** (such as equant, prismatic, and tabular models) to compare against your 2D data. The tool uses the same algorithms behind the widely-used [**CSDCorrections**](https://mdhiggins.ca/csdcorrections.html) tool (Higgins, 2000), which ensures **internally consistent** and **robust** CSDs when combined with ShapeCalc. This makes ShapeCalc the only tool that provides reliable 3D shape estimates that are consistent with standard CSD methods.
 
 In addition to best-fit 3D shapes, ShapeCalc also provides **uncertainty estimates**, which help ensure that your interpretations are robust and reliable.
 
 ### Easy-to-Use and Accessible
 
-ShapeCalc is designed for ease of use and can be run in **Excel**. All you need to provide are **2D crystal width and length measurements**, which can be obtained using tools like **ImageJ**. The tool is simple to install, with no special software or complicated setups required.
+ShapeCalc is designed for ease of use and can be run in **Excel**. All you need to provide are **2D crystal width and length measurements**, which can be obtained using tools like [**ImageJ**](https://imagej.net/ij/). The tool is simple to run, with no special software or complicated setups required.
 
 ### How ShapeCalc Works
 
-ShapeCalc compares your 2D length and width data with synthetic 2D projections of idealized **3D crystal shapes**. By matching your data to these models, ShapeCalc generates estimates of the corresponding 3D aspect ratios and provides uncertainty metrics for each shape.
+ShapeCalc compares your 2D length and width data with 2D width-length distributions of randomly intersected **3D model shapes**. By matching your data to these models, ShapeCalc generates estimates of the corresponding 3D aspect ratios and provides uncertainty metrics for each shape.
 
 ### Learn More and Download ShapeCalc
 
@@ -40,6 +40,9 @@ For detailed documentation, example datasets, and installation instructions, vis
 
 To download ShapeCalc directly, click below:  
 **[Download ShapeCalc](https://github.com/MartinMangler/ShapeCalc/raw/refs/heads/main/Shapecalc_v1.0.xlsx)**
+
+ShapeCalc is uniquely suited to facilitate robust Crystal Size Distribution analysis using CSDCorrections. Click below to download the latest version of CSDCOrrections:
+**[Download CSDCorrections 1.61](https://mdhiggins.ca/csdcorrections.html)
 
 ---
 
@@ -55,7 +58,7 @@ To download ShapeCalc directly, click below:
 
 ### ShapeCalc in Action
 
-By combining ShapeCalc with traditional CSD methods, you can achieve the most reliable and internally consistent CSDs, allowing for better geological interpretations. Whether you're studying volcanic rocks, plutonic formations, or other igneous rocks, ShapeCalc provides a powerful tool for shape analysis.
+By combining ShapeCalc with the gold-standard CSD tool CSDCorrections, you can achieve the most reliable and internally consistent CSDs, allowing for better geological interpretations. Whether you're studying volcanic rocks, plutonic formations, or other igneous rocks, ShapeCalc provides a powerful tool for shape analysis.
 
 ---
 

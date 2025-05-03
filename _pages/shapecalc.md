@@ -15,7 +15,7 @@ The size, number, and shape of crystals in volcanic rocks tell a unique story of
 
 Estimating 3D crystal shapes from 2D thin sections, as seen in microscopy, can be complex and prone to errors. For example, cut-section effects demand statistical treatment and stereological projection of 2D data to estimate 3D crystal shapes. Existing tools often yield inaccurate results, especially when dealing with natural crystals that vary in shape and size. 
 
-Together with my co-workers, I demonstrated that existing methods can be unreliable, leading to misinterpretations [Mangler et al., 2022](https://link.springer.com/article/10.1007/s00410-022-01922-9). In response, we developed **ShapeCalc**—a free and open-source tool for generating more accurate 3D shape estimates based on 2D crystal intersection data.
+Together with my co-workers, I demonstrated that existing methods can be unreliable, leading to misinterpretations [(Mangler et al., 2022)](https://link.springer.com/article/10.1007/s00410-022-01922-9). In response, we developed **ShapeCalc**—a free and open-source tool for generating more accurate 3D shape estimates based on 2D crystal intersection data.
 
 ### Why ShapeCalc is Different
 
@@ -41,8 +41,8 @@ For detailed documentation, example datasets, and installation instructions, vis
 To download ShapeCalc directly, click below:  
 **[Download ShapeCalc](https://github.com/MartinMangler/ShapeCalc/raw/refs/heads/main/Shapecalc_v1.0.xlsx)**
 
-ShapeCalc is uniquely suited to facilitate robust Crystal Size Distribution analysis using CSDCorrections. Click below to download the latest version of CSDCOrrections:
-**[Download CSDCorrections 1.61](https://mdhiggins.ca/csdcorrections.html)
+Plannint to use ShapeCalc to calculate Crystal Size Distributions? - Click below to download the latest version of CSDCorrections:
+**[Download CSDCorrections 1.61](https://mdhiggins.ca/csdcorrections.html)**
 
 ---
 

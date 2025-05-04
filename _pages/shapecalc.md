@@ -7,52 +7,44 @@ header:
   overlay_filter: 0.1
 ---
 
-## ShapeCalc: Robust 3D Crystal Shape Estimation from 2D Data
+## Estimate 3D crystal shapes from 2D data – robustly and consistently
 
-The size, number, and shape of crystals in volcanic rocks tell a unique story of the magma’s journey through the Earth's crust. **Crystal shape** is a key petrological parameter reflecting magmatic conditions such as **cooling rates** and **melt composition**. It is also essential for **Crystal Size Distribution (CSD) analysis**, a powerful method to reconstruct crystallisation histories.
+**ShapeCalc is a free, Excel-based tool that estimates 3D crystal shapes from 2D intersection data — with greater accuracy and flexibility than previous methods.**
 
-### The Challenge with Estimating 3D Crystal Shapes
+[![GitHub Repo](https://img.shields.io/badge/GitHub-ShapeCalc-black?logo=github&style=flat)](https://github.com/MartinMangler/ShapeCalc)
+🔽 [**ShapeCalc: Direct Download**](https://github.com/MartinMangler/ShapeCalc/releases)
+📄 [Read the full documentation](https://github.com/MartinMangler/ShapeCalc/blob/main/ShapeCalc_documentation.pdf)  
+📽️ [Jump to video demo](#how-shapecalc-works)
 
-Estimating 3D crystal shapes from 2D thin sections, as seen in microscopy, can be complex and prone to errors. For example, cut-section effects demand statistical treatment and stereological projection of 2D data to estimate 3D crystal shapes. Existing tools often yield inaccurate results, especially when dealing with natural crystals that vary in shape and size. 
+---
 
-Together with my co-workers, I demonstrated that existing methods can be unreliable, leading to misinterpretations [(Mangler et al., 2022)](https://link.springer.com/article/10.1007/s00410-022-01922-9). In response, we developed **ShapeCalc**—a free and open-source tool for generating more accurate 3D shape estimates based on 2D crystal intersection data.
+Understanding the **numbers, shapes and sizes of crystals in volcanic rocks** is key to reconstructing magmatic processes such as **magma storage**, **cooling and crystallisation rates**, and **magma ascent**. It is also essential for **Crystal Size Distribution (CSD) analysis**, a powerful method to reconstruct crystallisation histories.
 
-### Why ShapeCalc is Different
+Yet, estimating **3D crystal shapes from 2D thin sections** can be complex and prone to errors. For example, cut-section effects demand statistical treatment and stereological projection of 2D data to estimate 3D crystal shapes. Existing tools such as CSDslice often yield inaccurate results, especially when dealing with natural crystals that vary in shape and size. 
 
-ShapeCalc leverages **synthetic 3D model shapes** (such as equant, prismatic, and tabular models) to compare against your 2D data. The tool uses the same algorithms behind the widely-used [CSDCorrections](https://mdhiggins.ca/csdcorrections.html) tool (Higgins, 2000), which ensures **internally consistent** and **robust** CSDs when combined with ShapeCalc. This makes ShapeCalc the only tool that provides reliable 3D shape estimates that are consistent with standard CSD methods.
+To address this challenge, we developed **ShapeCalc**. 
 
-In addition to best-fit 3D shapes, ShapeCalc also provides **uncertainty estimates**, which help ensure that your interpretations are robust and reliable.
+ShapeCalc is the most robust tool to calculate 3D crystal shape from 2D textural data because it:
+
+- Resolves a wider range of **realistic crystal shapes** than any other comparable tool
+- Provides **uncertainty estimates** for each 3D shape solution
+- Uses the same algorithms as **CSDCorrections** (Higgins, 2000), enabling internally consistent CSD workflows
+
+---
 
 ### Easy-to-Use and Accessible
 
 ShapeCalc is designed for ease of use and can be run in **Excel**. All you need to provide are **2D crystal width and length measurements**, which can be obtained using tools like [ImageJ](https://imagej.net/ij/). The tool is simple to run, with no special software or complicated setups required.
 
+---
+
 ### How ShapeCalc Works
 
 ShapeCalc compares your 2D length and width data with 2D width-length distributions of randomly intersected **3D model shapes**. By matching your data to these models, ShapeCalc generates estimates of the corresponding 3D aspect ratios and provides uncertainty metrics for each shape.
 
-### Learn More and Download ShapeCalc
+Watch this short walkthrough of ShapeCalc in action:
 
-Here’s a video showing how ShapeCalc works in practice:  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5qarOaO2ETA?si=7M0rntgv-MVsY39H" title="ShapeCalc video" frameborder="0" allowfullscreen></iframe>
-
-For detailed documentation, example datasets, and installation instructions, visit the [ShapeCalc GitHub repository](https://github.com/MartinMangler/shapecalc).
-
-To download ShapeCalc directly, click below:  
-**[Download ShapeCalc](https://github.com/MartinMangler/ShapeCalc/raw/refs/heads/main/Shapecalc_v1.0.xlsx)**
-
-Planning to use ShapeCalc to calculate Crystal Size Distributions? - Click below to download the latest version of CSDCorrections:  
-**[Download CSDCorrections 1.61](https://mdhiggins.ca/csdcorrections.html)**
-
----
-
-### Key Features of ShapeCalc
-
-- **Accurate 3D shape estimation** based on 2D crystal size data.
-- **Uncertainty estimates** for more robust interpretations.
-- Internally consistent and compatible with **CSDCorrections**.
-- **Free and open-source** (Excel-based).
-- Easy-to-use interface with no advanced software requirements.
 
 ---
 
@@ -62,33 +54,20 @@ Before the release of **ShapeCalc**, the most widely used tool for estimating **
 
 In a direct comparison of synthetic 2D width–length distributions, **CSDslice produces non-unique outputs for prismatic model shapes** (e.g., short:intermediate dimension aspect ratio = 1:1). For example, CSDslice cannot reliably distinguish between a **single population of elongate crystals** and a **mixture of three populations with different shapes**. This can lead to erroneous results — such as returning a dominant prismatic shape even when the real sample contains more complex or varied textures (see Panel d in the figure below). 
 
-
 ![Comparison of model outputs from CSDslice and ShapeCalc for various 3D shapes](/assets/images/ShapeCalc_v_CSDslice.jpg)
 
-*Fig: (a–c) Comparison of model 2D width/length distributions from CSDslice (dotted) and ShapeCalc (solid). Each is based on 10,000 (CSDslice) or 20,000 (ShapeCalc) random sections. (a) 1:2:4, (b) 1:10:10, (c) 1:1:10. Note significant mismatch for 1:1:10 model shape. (d) Mixing three CSDslice populations yields similar output to the 1:1:10 model, illustrating non-uniqueness and potential misinterpretation.*
-
-By contrast, **ShapeCalc**:
-
-- Resolves a broader range of naturally occurring crystal shapes (1:1:1 to 1:20:20) than CSDslice (limited to 1:1:1 to 1:10:10)
-- Uses **higher-resolution shape models** (20,000 sections vs. 10,000), improving match accuracy
-- Provides **goodness-of-fit metrics and uncertainty estimates** to support robust geological interpretation
-- Shares algorithms with **CSDCorrections**, enabling a fully **internally consistent crystal size distribution (CSD) workflow**
-
-For a detailed technical comparison, see [Mangler et al., 2022](https://link.springer.com/article/10.1007/s00410-022-01922-9) or consult the full [ShapeCalc documentation](https://github.com/MartinMangler/ShapeCalc/blob/main/ShapeCalc_documentation.pdf).
-
-### ShapeCalc in Action
-
-By combining ShapeCalc with the gold-standard CSD tool CSDCorrections, you can achieve the most reliable and internally consistent CSDs, allowing for better geological interpretations. Whether you're studying volcanic rocks, plutonic formations, or other igneous rocks, ShapeCalc provides a powerful tool for shape analysis.
+*Fig: (a–c) Comparison of model 2D width/length distributions from CSDslice (dotted) and ShapeCalc (solid). Each is based on 10,000 (CSDslice) or 20,000 (ShapeCalc) random sections. (a) 1:2:4, (b) 1:10:10, (c) 1:1:10. Note significant mismatch for 1:1:10 model shape. (d) Mixing three CSDslice populations yields similar output to the 1:1:10 model, illustrating non-uniqueness and potential misinterpretation.*For detailed documentation, example datasets, and installation instructions, visit the [ShapeCalc GitHub repository](https://github.com/MartinMangler/shapecalc).
 
 ---
 
-*Note: If you are planning to publish your CSD analysis or include it in scientific research, ShapeCalc's integrated uncertainties and consistent workflow make it ideal for high-quality, reproducible results.*
+## Further reading
+
+🧾 [Mangler et al., 2022 – Petrology & ShapeCalc benchmarking](https://link.springer.com/article/10.1007/s00410-022-01922-9)  
+📘 [Full documentation PDF](https://github.com/MartinMangler/ShapeCalc/blob/main/ShapeCalc_documentation.pdf)
 
 ---
 
-### Additional Resources
+## Get started
 
-- [ShapeCalc Documentation](https://github.com/MartinMangler/ShapeCalc/blob/main/ShapeCalc_documentation.pdf)
-- [ShapeCalc GitHub Repository](https://github.com/MartinMangler/shapecalc)
-
-
+🔽 [Download ShapeCalc](https://github.com/MartinMangler/ShapeCalc/releases)  
+💬 Questions or feedback? [Open an issue](https://github.com/MartinMangler/ShapeCalc/issues) or [contact me](/#contact)

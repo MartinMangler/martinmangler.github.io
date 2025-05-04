@@ -63,7 +63,7 @@ Before the release of **ShapeCalc**, the most widely used tool for estimating **
 In a direct comparison of synthetic 2D width–length distributions, **CSDslice produces non-unique outputs for prismatic model shapes** (e.g., short:intermediate dimension aspect ratio = 1:1). For example, CSDslice cannot reliably distinguish between a **single population of elongate crystals** and a **mixture of three populations with different shapes**. This can lead to erroneous results — such as returning a dominant prismatic shape even when the real sample contains more complex or varied textures (see Panel d in the figure below). 
 
 
-![Comparison of model outputs from CSDslice and ShapeCalc for various 3D shapes](assets/images/ShapeCalc_vs_CSDslice.png)
+![Comparison of model outputs from CSDslice and ShapeCalc for various 3D shapes](/assets/images/ShapeCalc_v_CSDslice.png)
 
 *Fig: (a–c) Comparison of model 2D width/length distributions from CSDslice (dotted) and ShapeCalc (solid). Each is based on 10,000 (CSDslice) or 20,000 (ShapeCalc) random sections. (a) 1:2:4, (b) 1:10:10, (c) 1:1:10. Note significant mismatch for 1:1:10 model shape. (d) Mixing three CSDslice populations yields similar output to the 1:1:10 model, illustrating non-uniqueness and potential misinterpretation.*
 

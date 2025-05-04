@@ -11,7 +11,6 @@ header:
 
 **ShapeCalc is a free, Excel-based tool that estimates 3D crystal shapes from 2D intersection data — with greater accuracy and flexibility than previous methods.**
 
-
 🔽 [**ShapeCalc: Direct Download**](https://github.com/MartinMangler/ShapeCalc/releases) 
 
 📄 [Read the full documentation](https://github.com/MartinMangler/ShapeCalc/blob/main/ShapeCalc_documentation.pdf)    

@@ -11,10 +11,10 @@ header:
 
 **ShapeCalc is a free, Excel-based tool that estimates 3D crystal shapes from 2D intersection data — with greater accuracy and flexibility than previous methods.**
 
-[![GitHub Repo](https://img.shields.io/badge/GitHub-ShapeCalc-black?logo=github&style=flat)](https://github.com/MartinMangler/ShapeCalc)
-🔽 [**ShapeCalc: Direct Download**](https://github.com/MartinMangler/ShapeCalc/releases)
-📄 [Read the full documentation](https://github.com/MartinMangler/ShapeCalc/blob/main/ShapeCalc_documentation.pdf)  
-📽️ [Jump to video demo](#how-shapecalc-works)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-ShapeCalc-black?logo=github&style=flat)](https://github.com/MartinMangler/ShapeCalc)  
+🔽 [**ShapeCalc: Direct Download**](https://github.com/MartinMangler/ShapeCalc/releases)  
+📄 [Read the full documentation](https://github.com/MartinMangler/ShapeCalc/blob/main/ShapeCalc_documentation.pdf)    
+📽️ [Jump to video demo](#how-shapecalc-works)  
 
 ---
 
@@ -30,13 +30,9 @@ ShapeCalc is the most robust tool to calculate 3D crystal shape from 2D textural
 - Provides **uncertainty estimates** for each 3D shape solution
 - Uses the same algorithms as **CSDCorrections** (Higgins, 2000), enabling internally consistent CSD workflows
 
----
-
 ### Easy-to-Use and Accessible
 
 ShapeCalc is designed for ease of use and can be run in **Excel**. All you need to provide are **2D crystal width and length measurements**, which can be obtained using tools like [ImageJ](https://imagej.net/ij/). The tool is simple to run, with no special software or complicated setups required.
-
----
 
 ### How ShapeCalc Works
 
@@ -56,18 +52,20 @@ In a direct comparison of synthetic 2D width–length distributions, **CSDslice 
 
 ![Comparison of model outputs from CSDslice and ShapeCalc for various 3D shapes](/assets/images/ShapeCalc_v_CSDslice.jpg)
 
-*Fig: (a–c) Comparison of model 2D width/length distributions from CSDslice (dotted) and ShapeCalc (solid). Each is based on 10,000 (CSDslice) or 20,000 (ShapeCalc) random sections. (a) 1:2:4, (b) 1:10:10, (c) 1:1:10. Note significant mismatch for 1:1:10 model shape. (d) Mixing three CSDslice populations yields similar output to the 1:1:10 model, illustrating non-uniqueness and potential misinterpretation.*For detailed documentation, example datasets, and installation instructions, visit the [ShapeCalc GitHub repository](https://github.com/MartinMangler/shapecalc).
+*Fig: (a–c) Comparison of model 2D width/length distributions from CSDslice (dotted) and ShapeCalc (solid). Each is based on 10,000 (CSDslice) or 20,000 (ShapeCalc) random sections. (a) 1:2:4, (b) 1:10:10, (c) 1:1:10. Note significant mismatch for 1:1:10 model shape. (d) Mixing three CSDslice populations yields similar output to the 1:1:10 model, illustrating non-uniqueness and potential misinterpretation.*
+
+For detailed documentation, example datasets, and installation instructions, visit the [ShapeCalc GitHub repository](https://github.com/MartinMangler/shapecalc).
 
 ---
 
 ## Further reading
 
-🧾 [Mangler et al., 2022 – Petrology & ShapeCalc benchmarking](https://link.springer.com/article/10.1007/s00410-022-01922-9)  
-📘 [Full documentation PDF](https://github.com/MartinMangler/ShapeCalc/blob/main/ShapeCalc_documentation.pdf)
+[Mangler et al., 2022 – Petrology & ShapeCalc benchmarking](https://link.springer.com/article/10.1007/s00410-022-01922-9)  
+[Full documentation PDF](https://github.com/MartinMangler/ShapeCalc/blob/main/ShapeCalc_documentation.pdf)
 
 ---
 
 ## Get started
 
-🔽 [Download ShapeCalc](https://github.com/MartinMangler/ShapeCalc/releases)  
-💬 Questions or feedback? [Open an issue](https://github.com/MartinMangler/ShapeCalc/issues) or [contact me](/#contact)
+[Download ShapeCalc](https://github.com/MartinMangler/ShapeCalc/releases)  
+Questions or feedback? [Open an issue](https://github.com/MartinMangler/ShapeCalc/issues) or [contact me](/#contact)

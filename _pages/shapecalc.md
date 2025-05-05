@@ -12,20 +12,17 @@ header:
 **ShapeCalc is a free, Excel-based tool that estimates 3D crystal shapes from 2D intersection data — with greater accuracy and flexibility than previous methods.**
 
 🔽 [**ShapeCalc: Direct Download**](https://github.com/MartinMangler/ShapeCalc/releases) 
-
-📄 [Read the full documentation](https://github.com/MartinMangler/ShapeCalc/blob/main/ShapeCalc_documentation.pdf)    
-📽️ [Jump to video demo](#how-shapecalc-works)  
 [![GitHub Repo](https://img.shields.io/badge/GitHub-ShapeCalc-black?logo=github&style=flat)](https://github.com/MartinMangler/ShapeCalc)  
 
 ---
 
-Understanding the **numbers, shapes and sizes of crystals in volcanic rocks** is key to reconstructing magmatic processes such as **magma storage**, **cooling and crystallisation rates**, and **magma ascent**. It is also essential for **Crystal Size Distribution (CSD) analysis**, a powerful method to reconstruct crystallisation histories.
+The **numbers, shapes and sizes of crystals in volcanic rocks** are key to reconstructing magmatic processes such as **magma storage, cooling and crystallisation** as well as **magma ascent**. Crystal shape is an essential parameter in quantitative textural analysis techniques such as **Crystal Size Distribution (CSD)**, a powerful method to reconstruct crystallisation histories.
 
 Yet, estimating **3D crystal shapes from 2D thin sections** can be complex and prone to errors. For example, cut-section effects demand statistical treatment and stereological projection of 2D data to estimate 3D crystal shapes. Existing tools such as CSDslice often yield inaccurate results, especially when dealing with natural crystals that vary in shape and size. 
 
 To address this challenge, we developed **ShapeCalc**. 
 
-ShapeCalc is the most robust tool to calculate 3D crystal shape from 2D textural data because it:
+ShapeCalc is the most robust tool to calculate 3D crystal shape from 2D textural data due to a range of unique features. ShapeCalc:
 
 - Resolves a wider range of **realistic crystal shapes** than any other comparable tool
 - Provides **uncertainty estimates** for each 3D shape solution
@@ -33,7 +30,7 @@ ShapeCalc is the most robust tool to calculate 3D crystal shape from 2D textural
 
 ### Easy-to-Use and Accessible
 
-ShapeCalc is designed for ease of use and can be run in **Excel**. All you need to provide are **2D crystal width and length measurements**, which can be obtained using tools like [ImageJ](https://imagej.net/ij/). The tool is simple to run, with no special software or complicated setups required.
+ShapeCalc is designed for ease of use and can be run in **Excel**. All you need to provide are **2D crystal width and length measurements**, which can be obtained using tools like [ImageJ](https://imagej.net/ij/). 
 
 ### How ShapeCalc Works
 
@@ -49,11 +46,10 @@ Watch this short walkthrough of ShapeCalc in action:
 
 Before the release of **ShapeCalc**, the most widely used tool for estimating **3D crystal shapes from 2D thin section data** was **CSDslice** (Morgan & Jerram, 2006). Like ShapeCalc, CSDslice estimates 3D crystal shapes by comparing natural 2D width–length measurements with synthetic 2D distributions derived from 3D model shapes. However, **ShapeCalc provides significantly more accurate and geologically meaningful results** — particularly for samples containing **multiple crystal populations** with varying shapes and sizes, as is common in igneous rocks ([Mangler et al., 2022](https://link.springer.com/article/10.1007/s00410-022-01922-9)).
 
-In a direct comparison of synthetic 2D width–length distributions, **CSDslice produces non-unique outputs for prismatic model shapes** (e.g., short:intermediate dimension aspect ratio = 1:1). For example, CSDslice cannot reliably distinguish between a **single population of elongate crystals** and a **mixture of three populations with different shapes**. This can lead to erroneous results — such as returning a dominant prismatic shape even when the real sample contains more complex or varied textures (see Panel d in the figure below). 
+In a direct comparison of synthetic 2D width–length distributions, **CSDslice produces non-unique outputs for prismatic model shapes** (e.g., short:intermediate dimension aspect ratio = 1:1). As a result, CSDslice cannot reliably distinguish between a **single population of elongate crystals** and a **mixture of three populations with different shapes**. This can lead to erroneous results — such as returning a dominant prismatic shape even when the real sample contains more complex or varied textures (see Panel d in the figure below). 
 
 ![Comparison of model outputs from CSDslice and ShapeCalc for various 3D shapes](/assets/images/ShapeCalc_v_CSDslice.jpg)
-
-*Fig: (a–c) Comparison of model 2D width/length distributions from CSDslice (dotted) and ShapeCalc (solid). Each is based on 10,000 (CSDslice) or 20,000 (ShapeCalc) random sections. (a) 1:2:4, (b) 1:10:10, (c) 1:1:10. Note significant mismatch for 1:1:10 model shape. (d) Mixing three CSDslice populations yields similar output to the 1:1:10 model, illustrating non-uniqueness and potential misinterpretation.*
+*Fig: (a–c) Comparison of model 2D width/length distributions from CSDslice (dotted) and ShapeCalc (solid). Each is based on 10,000 (CSDslice) or 20,000 (ShapeCalc) random sections. (a) 1:2:4, (b) 1:10:10, (c) 1:1:10. Note the lack of a clear mode for the CSDslide distirbution, rendering it non-unique, as shown in (d) Mixing three CSDslice populations yields similar output to the 1:1:10 model, illustrating non-uniqueness and potential misinterpretation.*
 
 For detailed documentation, example datasets, and installation instructions, visit the [ShapeCalc GitHub repository](https://github.com/MartinMangler/shapecalc).
 
@@ -69,4 +65,4 @@ For detailed documentation, example datasets, and installation instructions, vis
 ## Get started
 
 [Download ShapeCalc](https://github.com/MartinMangler/ShapeCalc/releases)  
-Questions or feedback? [Open an issue](https://github.com/MartinMangler/ShapeCalc/issues) or [contact me](/#contact)
+Questions or feedback? [Open an issue](https://github.com/MartinMangler/ShapeCalc/issues) or [contact me](mailto:M.F.Mangler@soton.ac.uk)

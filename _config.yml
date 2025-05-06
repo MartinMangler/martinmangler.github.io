@@ -28,8 +28,24 @@ exclude:
 # Disable Recent Posts
 home_recent_posts: false
 
+atom_feed:
+  hide: true
+
 footer:
-  links: []
+  links:
+    - label: "Google Scholar"
+      icon: "fas fa-graduation-cap"
+      url: "https://scholar.google.com/citations?hl=en&user=3_3CYkMAAAAJ"
+    - label: "ResearchGate"
+      icon: "fab fa-researchgate"
+      url: "https://www.researchgate.net/profile/Martin-Mangler"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://uk.linkedin.com/in/martin-mangler
+      icon: "fab fa-x-twitter"
+      url: "https://twitter.com/mangler_m"
+
+  
 
 
  

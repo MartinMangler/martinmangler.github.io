@@ -3,7 +3,7 @@ layout: single
 title: "My Research"
 permalink: /research/
 header:
-  overlay_image: /assets/images/Banner_Kaimondake.jpg
+  overlay_image: /assets/images/Banner_MSH.jpg
   overlay_filter: 0.1
 ---
 

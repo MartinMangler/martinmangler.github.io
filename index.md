@@ -9,7 +9,7 @@ header:
 ---
 # Welcome to my website!
 
-I am a **mineralogist** and **igneous petrologist** based at the University of Southampton. I study tiny crystals to address huge geological challenges. My research focuses on the textures and compositions of crystals to better understand Earth's magmatic processes, including:
+I am a **mineralogist** and **igneous petrologist** based at the [University of Southampton](https://www.southampton.ac.uk/people/667rnp/doctor-martin-mangler). I study tiny crystals to address huge geological challenges. My research focuses on the textures and compositions of crystals to better understand Earth's magmatic processes, including:
 
 - How is magma emplaced and stored in the Earth's crust?
 - Why do some magmas erupt while others don't?

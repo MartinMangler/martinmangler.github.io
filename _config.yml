@@ -30,16 +30,20 @@ footer:
     - label: "Google Scholar"
       icon: "fas fa-graduation-cap"
       url: "https://scholar.google.com/citations?hl=en&user=3_3CYkMAAAAJ"
+      target: "_blank"
     - label: "ResearchGate"
       icon: "fab fa-researchgate"
       url: "https://www.researchgate.net/profile/Martin-Mangler"
+      target: "_blank"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://uk.linkedin.com/in/martin-mangler"
-    - label: "X (Twitter)"
+      target: "_blank"
+    - label: "Twitter"
       icon: "fab fa-x-twitter"
       url: "https://twitter.com/mangler_m"
-
+      target: "_blank"
+      
 atom_feed:
   hide: true
   

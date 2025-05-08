@@ -9,9 +9,9 @@ header:
 
 I am passionate about engaging with both general audiences and communities living close to active volcanoes. Below is a selection of past projects I have been involved with.
 
-### Volcano hazard workshops at Popocatépetl volcano, Mexico
+### Hazard workshops at Popocatépetl volcanoo
 I spent two months doing fieldwork at Popocatépetl for my PhD, where I teamed up with Mexican Civil Protection, the National Autonomous University of Mexico, and local schools to run volcano hazard workshops for kids. To make things hands-on and fun, I worked with colleagues from the U.S. to help the students create their own 3D plaster models of the volcano and learn how valleys and hills affect the way hazards spread. The project got some [international media attention](https://www.nationalgeographic.com/culture/article/3d-printed-volcano-map-popocatepetl-mexico), and we shared our outreach work at two international conferences.
-![A workshop in a school close to Popocatépetl](assets/images/School_workshop.jpg)
+![A workshop in a school close to Popocatépetl](assets/images/School_workshop.JPG)
 
 ### Mountain Aglow
 Mountain Aglow is both **a physical exhibition and a digital museum** that explores and celebrates how people have responded to the **Soufrière Hills eruption on Montserrat** since it began in 1995. I joined a multidsciplinary team of scientists, artists, writers, and historians from Great Britian and Montserrat to work on Mountain Aglow. I initiated a collaboration with London-based arts group Output Arts and secured funding to co-produce a series of audio-visual pieces for the physical Mountain Aglow exhibit. We first showcased it at the Norwich Science Festival, and it later made its way to Montserrat, where it is still used by the Montserrat Volcano Observatory to engage school children in conversations about their volcano. I also curated content for the digital museum, which brings together songs, poems, interviews, historical stories, science, photos, and videos about the eruption. 

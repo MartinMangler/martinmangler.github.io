@@ -20,7 +20,7 @@ Mountain Aglow is both **a physical exhibition and a digital museum** that explo
 ### Science communication
 During my PhD, I got involved in science outreach through the Natural History Museum, taking part in events like European Researchers’ Nights in London and Brussels, the Lyme Regis Fossil Festival, Imperial Fringe, and New Scientist Live. One of my favourite projects was creating a 45-minute interactive show that let audiences experience what it's like to manage a volcanic crisis - something I presented regularly through the NHM’s Nature Live programme, reaching over 1,000 people. I also helped produce short films and contributed to the NHM’s Operation Earth project. Outside the museum, I co-organised Imperial College’s Pint of Science events for three years and blogged about my research and volcanology more broadly for both the NHM and the European Association of Geochemistry. Here is one of the NHM's short films I was involved with:
 
-<iframe width="560" height="315" src="https://youtu.be/5C26yLkS3Ds?si=GNfcbCngbUxQ8jbf" title="Blue Moon video" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtu.be/embed/5C26yLkS3Ds?si=GNfcbCngbUxQ8jbf" title="Blue Moon video" frameborder="0" allowfullscreen></iframe>
 
 ### British Media Fellowship
 In 2019, while I was at UEA, I was awarded a British Media Fellowship by the British Science Association and spent two months working with a digital media outlet. The experience completely reshaped how I think about the media and its relationship with researchers across all fields. Since then, I’ve become an advocate for building better relationships between scientists and the media, and I’ve given talks and written further blogs on the topic.

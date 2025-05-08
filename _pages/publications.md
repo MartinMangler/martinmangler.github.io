@@ -3,11 +3,11 @@ layout: single
 title: "Publications"
 permalink: /publications/
 header:
-  overlay_image: /assets/images/Banner_GranCanaria.jpg
+  overlay_image: /assets/images/Banner_Etna.jpg
   overlay_filter: 0.1
 ---
 
-Below is a list of my publications to date. For more information, check my Google Scholar and Orcid records.
+Below is a list of my publications to date. For more information, check my [Google Scholar](https://scholar.google.com/citations?hl=en&user=3_3CYkMAAAAJ) and [Orcid](https://orcid.org/0000-0001-8205-9038) records.
 
 ### 2025
 **Mangler, M.F.**, Gardiner, N.J., Skeat, D. et al. (2025). Apatite as a pathfinder to tin mineralisation: prospects and caveats. _Mineralium Deposita_ https://doi.org/10.1007/s00126-025-01350-2

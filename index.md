@@ -3,7 +3,7 @@ layout: single
 title: "Home"
 permalink: /
 header:
-  overlay_image: /assets/images/Banner_Etna.jpg
+  overlay_image: /assets/images/Banner_GranCanaria.jpg
   overlay_filter: 0.2
   
 ---
